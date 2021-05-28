@@ -1,0 +1,87 @@
+body{
+    background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgb(26, 44, 77) 0%, rgba(0,112,218,1) 90% );
+    padding: 0;
+    margin: 0;
+    height: 300px;
+    width: 320px;
+}
+
+#clock{
+    font-family:monospace;
+    height: 15px;
+    font-size: large;
+    padding: 5px 5px 10px 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1px black,1px 0 black,-1px 0 black,0 -1px black;
+    border-radius: 10px;
+    background: #6fa7e6;
+    margin-top: 20px;
+    float: right;
+}
+
+#clock :hover{
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.637);
+    transition: all .5s ease 0s;
+}
+
+.byak_1{
+    text-decoration: none;
+    margin-left: 5%;
+    margin-top: 0px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    transition: all .5s ease 1s;
+}
+p{
+    font-family: Anurati Regular;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: aliceblue;
+
+}
+input{
+    border-style:none;
+    border-radius: 10px;
+    padding:5px;
+    margin:4px;
+    text-align: center;
+    margin-left: 55px;    
+}
+.study{
+    background:linear-gradient(#8bfad3,#95f5d3);
+    border-left-style: solid;
+    border-color: #293552;
+    border-width:5px;
+    margin: 5px;   
+}
+.break{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(161,255,255,1) 11.3%, rgba(6,255,255,1) 41.2%, rgba(0,216,216,1) 77.8% );
+    border-left-style: solid; 
+    border-color: #293552;
+    border-width:7px;
+    margin: 5px; 
+}
+
+button {background-image: linear-gradient(to right, #F0F2F0 0%, #000C40  51%, #F0F2F0  100%)}
+button {
+   margin: 10px;
+   padding: 10px 30px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   margin-left: 78px;
+   text-shadow: 0 1px black,1px 0 black,-1px 0 black,0 -1px black;
+}
+
+ button:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+ }
+
+
